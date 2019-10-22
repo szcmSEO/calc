@@ -16,4 +16,5 @@ version     = "1.0.0" >
 		Andrey Duhanin
 	</author>
 	<icon src="icon.png" />	
+	<preference name="permissions" value="none" />
 </widget>

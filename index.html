@@ -3,221 +3,221 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<script async="" src="./calc__files/js">
-		</script> 
 		<link rel="stylesheet" href="./calc__files/bootstrap.min.css">
 		<link rel="stylesheet" href="./calc__files/style.css" >
 		<title>Металлокалькулятор | Расчет веса металла | ООО "СЗЦМ"</title> 
 		<script type="text/javascript" src="./calc__files/jquery.js">
 		</script> 
 	</head>
-	<body class="page-template-default page page-id-2184">
-		<section class="container-fluid">
-			<div class="col text-left lh12">
-				<div class="text">
-					<div class="calculator container-fluid bg-main-g my-4 px-0 cwhite font-weight-bold">
-						<div class="row align-items-center text-center font-weight-bold bg-dg mb-2 px-2">
-							<div class="col-sm-6">
-								Материал:
+	<body>
+		<div class="calculator container-fluid bg-main-g px-0 cwhite font-weight-bold">
+			<div class="row align-items-center text-center font-weight-bold bg-dg mb-2 px-2">
+				<div class="col-12">
+					<a class="cwhite" href="https://xn--g1aknv.com/">Металлокалькулятор «СЗЦМ»</a><br>
+					<h1 class="fs14">Северо-Западный Центр Металлообработки</h1>
+				</div>
+				<div class="col-sm-6">
+					Материал:
+				</div>
+				<div class="col-sm-6">
+					<select id="material" class="button-n bg-g">
+						<option value="7.9" selected>Сталь</option>
+						<option value="7.8">Чугун</option>
+						<option value="7.6">Бронза</option>
+						<option value="2.78">Алюминий</option>
+						<option value="8.45">Латунь</option>
+						<option value="8.96">Медь</option>
+						<option value="4.32">Титан</option>
+						<option disabled value="">ПОЛИМЕРЫ:</option>
+						<option value="0.92">Полипропилен</option>
+						<option value="1.14">Полиамид</option>
+						<option value="1.42">Полиацеталь</option>
+						<option value="1.2">Полиуретан</option>
+						<option value="2.2">Фторопласт</option>
+					</select>
+				</div>
+			</div>
+			<div class="row no-gutters">
+				<div class="col-4 col-sm-2">
+					<div class="row text-center no-gutters text-nowrap">
+						<div class="col-12 pb-2 font-weight-bold">Тип проката</div>
+						<div class="col-12">
+							Металл:<br>
+							<img class="calc-btn pt-1" data-id="1" data-name="Круг/проволока/катанка" data-img="./calc__files/krug.jpg" class="calc-btn" src="./calc__files/krug-icon.gif" data-params="01" alt="Круг/проволока/катанка" title="Круг/проволока/катанка">
+							<img class="calc-btn" data-id="2" data-name="Труба" data-img="./calc__files/truba.jpg" src="./calc__files/truba-icon.gif" data-params="013" alt="Труба" title="Труба">
+						</div>
+						<div class="col-12">
+							<img class="calc-btn" data-id="3" data-name="Шестигранник" data-img="./calc__files/shestigrannik.jpg" src="./calc__files/shestigrannik-icon.gif" data-params="01" alt="Шестигранник" title="Шестигранник">
+							<img class="calc-btn" data-id="4" data-name="Квадрат" data-img="./calc__files/kvadrat.jpg" src="./calc__files/kvadrat-icon.gif" data-params="14" alt="Квадрат" title="Квадрат">
+							
+						</div>
+						<div class="col-12">
+							<img class="calc-btn" data-id="5" data-name="Профильная труба" data-img="./calc__files/profilnaya-truba.jpg" src="./calc__files/profil-icon.gif" data-params="1234" alt="Профильная труба" title="Профильная труба">
+							<img class="calc-btn" data-id="6" data-name="Швеллер" data-img="./calc__files/shveller.jpg" src="./calc__files/shveller-icon.gif" data-params="1234" alt="Швеллер" title="Швеллер">
+						</div>
+						<div class="col-12">
+							<img class="calc-btn" data-id="7" data-name="Лист" data-img="./calc__files/list.jpg" src="./calc__files/list-icon.gif" data-params="1345" alt="Лист" title="Лист">
+							<img class="calc-btn" data-id="8" data-name="Лента/полоса" data-img="./calc__files/lenta.jpg" src="./calc__files/lenta-icon.gif" data-params="134" alt="Лента/полоса" title="Лента/полоса">
+						</div>
+						<div class="col-12">
+							<img class="calc-btn" data-id="9" data-name="Балка" data-img="./calc__files/balka.jpg" src="./calc__files/balka-icon.gif" data-params="12346" alt="Балка" title="Балка">
+							<img class="calc-btn" data-id="10" data-name="Уголок" data-img="./calc__files/ugolok.jpg" src="./calc__files/ugolok-icon.gif" data-params="1234" alt="Уголок" title="Уголок">
+						</div>
+						<div class="col-12">
+							Полимеры:<br>
+							<img class="calc-btn pt-1" data-id="11" data-name="Пластина" data-img="./calc__files/list.jpg" src="./calc__files/list-icon.gif" data-params="1345" alt="Пластина" title="Пластина">
+							<img class="calc-btn" data-id="12" data-name="Стержень" data-img="./calc__files/krug.jpg" src="./calc__files/krug-icon.gif" data-params="01" alt="Стержень" title="Стержень">
+						</div>
+					</div>
+				</div>
+				<div class="col-8 col-sm-5 pl-2 pl-sm-0">	
+					<div class="text-center">
+						<div id="rollingName" class="col-12">Круг/проволока/катанка</div>
+						<img id="rollingImg" class="p-2 w-100" src="./calc__files/krug.jpg" alt="Круг/проволока/катанка" title="Круг/проволока/катанка">
+					</div>
+				</div>
+				<div id="params" class="col-12 col-sm-5">
+					<div class="col-12">Диаметр D (мм)<input type="number" min="0" max="9999" class="num button-n" id="diametr" value="" placeholder=""></div>
+					<div class="col-12">
+						Длина L
+						<div class="row no-gutters">
+							<div class="col-6 col-md-8">
+								<input type="number" min="0" max="9999" class="num button-n" id="dlina" value="" placeholder="">
 							</div>
-							<div class="col-sm-6">
-								<select id="material" class="button-n bg-g">
-									<option value="7.9" selected>Сталь</option>
-									<option value="7.8">Чугун</option>
-									<option value="7.6">Бронза</option>
-									<option value="2.78">Алюминий</option>
-									<option value="8.45">Латунь</option>
-									<option value="8.96">Медь</option>
-									<option value="4.32">Титан</option>
-									<option disabled value="">ПОЛИМЕРЫ:</option>
-									<option value="0.92">Полипропилен</option>
-									<option value="1.14">Полиамид</option>
-									<option value="1.42">Полиацеталь</option>
-									<option value="1.2">Полиуретан</option>
-									<option value="2.2">Фторопласт</option>
+							<div class="col-6 col-md-4">								
+								<select id="k" class="button-n bg-g">
+									<option value="0.1" selected>мм</option>
+									<option value="100">м</option>
 								</select>
 							</div>
 						</div>
-						<div class="row no-gutters">
-							<div class="col-4 col-sm-2">
-								<div class="row text-center no-gutters text-nowrap">
-									<div class="col-12 pb-2 font-weight-bold">Тип проката</div>
-									<div class="col-12">
-										Металл:<br>
-										<img class="calc-btn pt-1" data-id="1" data-name="Круг/проволока/катанка" data-img="./calc__files/krug.jpg" class="calc-btn" src="./calc__files/krug-icon.gif" data-params="01" alt="Круг/проволока/катанка" title="Круг/проволока/катанка">
-										<img class="calc-btn" data-id="2" data-name="Труба" data-img="./calc__files/truba.jpg" src="./calc__files/truba-icon.gif" data-params="013" alt="Труба" title="Труба">
-									</div>
-									<div class="col-12">
-										<img class="calc-btn" data-id="3" data-name="Шестигранник" data-img="./calc__files/shestigrannik.jpg" src="./calc__files/shestigrannik-icon.gif" data-params="01" alt="Шестигранник" title="Шестигранник">
-										<img class="calc-btn" data-id="4" data-name="Квадрат" data-img="./calc__files/kvadrat.jpg" src="./calc__files/kvadrat-icon.gif" data-params="14" alt="Квадрат" title="Квадрат">
-										
-									</div>
-									<div class="col-12">
-										<img class="calc-btn" data-id="5" data-name="Профильная труба" data-img="./calc__files/profilnaya-truba.jpg" src="./calc__files/profil-icon.gif" data-params="1234" alt="Профильная труба" title="Профильная труба">
-										<img class="calc-btn" data-id="6" data-name="Швеллер" data-img="./calc__files/shveller.jpg" src="./calc__files/shveller-icon.gif" data-params="1234" alt="Швеллер" title="Швеллер">
-									</div>
-									<div class="col-12">
-										<img class="calc-btn" data-id="7" data-name="Лист" data-img="./calc__files/list.jpg" src="./calc__files/list-icon.gif" data-params="1345" alt="Лист" title="Лист">
-										<img class="calc-btn" data-id="8" data-name="Лента/полоса" data-img="./calc__files/lenta.jpg" src="./calc__files/lenta-icon.gif" data-params="134" alt="Лента/полоса" title="Лента/полоса">
-									</div>
-									<div class="col-12">
-										<img class="calc-btn" data-id="9" data-name="Балка" data-img="./calc__files/balka.jpg" src="./calc__files/balka-icon.gif" data-params="12346" alt="Балка" title="Балка">
-										<img class="calc-btn" data-id="10" data-name="Уголок" data-img="./calc__files/ugolok.jpg" src="./calc__files/ugolok-icon.gif" data-params="1234" alt="Уголок" title="Уголок">
-									</div>
-									<div class="col-12">
-										Полимеры:<br>
-										<img class="calc-btn pt-1" data-id="11" data-name="Пластина" data-img="./calc__files/list.jpg" src="./calc__files/list-icon.gif" data-params="1345" alt="Пластина" title="Пластина">
-										<img class="calc-btn" data-id="12" data-name="Стержень" data-img="./calc__files/krug.jpg" src="./calc__files/krug-icon.gif" data-params="01" alt="Стержень" title="Стержень">
-									</div>
-								</div>
-							</div>
-							<div class="col-8 col-sm-5 pl-2 pl-sm-0">	
-								<div class="text-center">
-									<div id="rollingName" class="col-12">Круг/проволока/катанка</div>
-									<img id="rollingImg" class="p-2 w-100" src="./calc__files/krug.jpg" alt="Круг/проволока/катанка" title="Круг/проволока/катанка">
-								</div>
-							</div>
-							<div id="params" class="col-12 col-sm-5">
-								<div class="col-12">Диаметр D (мм)<input type="number" min="0" max="9999" class="num button-n" id="diametr" value="" placeholder=""></div>
-								<div class="col-12">
-									Длина L
-									<div class="row no-gutters">
-										<div class="col-6 col-md-8">
-											<input type="number" min="0" max="9999" class="num button-n" id="dlina" value="" placeholder="">
-										</div>
-										<div class="col-6 col-md-4">								
-											<select id="k" class="button-n bg-g">
-												<option value="0.1" selected>мм</option>
-												<option value="100">м</option>
-											</select>
-										</div>
-									</div>
-								</div>
-								<div class="col-12 d-none">Высота H (мм)<input type="number" min="0" max="9999" class="num button-n" id="visota" value="" placeholder=""></div>
-								<div class="col-12 d-none">Толщина S (мм)<input type="number" min="0" max="9999" class="num button-n" id="tolshina" value="" placeholder=""></div>
-								<div class="col-12 d-none">Ширина B (мм)<input type="number" min="0" max="9999" class="num button-n" id="shirina" value="" placeholder=""></div>
-								<div class="col-12 d-none">Количество (шт)<input type="number" min="0" max="9999" class="num button-n" id="kolichestvo" value="" placeholder=""></div>
-								<div class="col-12 d-none">Толщ. полок S2 (мм)<input type="number" min="0" max="9999" class="num button-n" id="tolshina2" value="" placeholder=""></div>
-							</div>
-							<div class="row col-12 pt-2 align-items-center bg-mg">
-								<div class="col-sm-6"><span id="rasschitat" class=" num button-n blue-button m-0">Рассчитать</span></div>
-								<div class="col-sm-6 pt-2">Вес:<input class="num button-n" id="ves" value="" readonly=""></div>
-								<div class="col-sm-6">Цена за кг:<input type="number" min="0" max="9999" class="num button-n" id="cenaKg" value="" placeholder="укажите цену за кг"></div>
-								<div class="col-sm-6">Общая стоимость:<input type="number" min="0" max="9999" class="num button-n bg-g" id="cenaTotal" value="" readonly></div>
-							</div>	
-						</div>
 					</div>
-					
-					<script async>
-						jQuery(function($){
-						var result = 0;		
-						var name;
-						$('.calc-btn').click(function(){ 
-						var theBtn = this;		
-						MngCalc(theBtn);
-						});
-						
-						$('#rasschitat').click(function(){ 			
-						DoCalculation();
-						});
-						
-						$('#cenaKg').keyup(function() {
-						if(result == 0 || Number.isNaN(parseFloat($('#cenaKg').val())))
-						{return;}
-						else {СalcInvoice();}
-						});
-						
-						function MngCalc(theBtn){
-						name = theBtn.getAttribute('data-name');
-						var imgSrc = theBtn.getAttribute('data-img');
-						var paramNumbers = theBtn.getAttribute('data-params');
-						var btnId = theBtn.getAttribute('data-id');
-						
-						if( btnId <= 10 )
-						{$('#material :nth-child(1)').attr("selected", "selected");}
-						else
-						{$('#material :nth-child(9)').attr("selected", "selected");}
-						$('#rollingName').text(name);
-						$('#rollingImg').attr('src', imgSrc);
-						var params = $('#params').children();
-						params.addClass('d-none');
-						ShowParams(params, paramNumbers);
-					};
-					
-					function ShowParams(params, paramNumbers){
-						$('#params input').val('');
-						$('#ves').val('');
-						$('#cenaKg').val('');
-						$('#cenaTotal').val('');
-						paramNumbers = paramNumbers.split('');
-						for(var i=0; i < paramNumbers.length; i++)
-						{
-							params.eq(paramNumbers[i]).removeClass('d-none');
-						}
-					}; 
-					
-					function DoCalculation(){ 
-						result = 0;
-						var k = parseFloat($('#k').val());
-						var d = parseFloat($('#diametr').val());
-						var l = parseFloat($('#dlina').val());
-						var t = parseFloat($('#tolshina').val());
-						var mat = parseFloat($('#material').val());
-						var sh = parseFloat($('#shirina').val());
-						var kol = parseFloat($('#kolichestvo').val());
-						var h = parseFloat($('#visota').val());
-						var t2 = parseFloat($('#tolshina2').val());
-						switch (name) { 
-							case 'Труба':
-							result = 3.1415 * Math.pow(d / 2, 2) - 3.1415 * (Math.pow(d / 2 - t, 2));
-							result = result * mat * l * k / 100000;
-							break;
-							case 'Шестигранник': 
-							result = 0.87 * Math.pow(d, 2) * mat / 100000 * l * k;
-							break;		
-							case 'Квадрат': 
-							result = Math.pow(sh, 2) * mat / 100000 * l * k;
-							break;
-							case 'Профильная труба': 
-							result = 2 * t * (sh + h) * mat / 100000 * l * k;
-							break;
-							case 'Швеллер': 
-							result = t*(2*h + sh - 2*t) * mat / 100000 * l * k;
-							break;
-							case 'Лист':
-							result = t * l * sh * mat / 100000 * k * kol;
-							break;
-							case 'Лента/полоса':
-							result = t * l * sh * mat / 100000 * k;
-							break;
-							case 'Балка':
-							result = ((h - 2*t2) * t + 2*(sh * t2)) * mat / 100000 * l * k;
-							break;
-							case 'Уголок':
-							result = ((h * t - Math.pow(t, 2)) + (sh*t)) * mat / 100000 * l * k;
-							break;
-							case 'Пластина':
-							result = t * l * sh * mat / 100000 * k * kol;
-							break;
-							case 'Стержень':
-							result = 3.1415 * Math.pow(d / 2, 2);
-							result = result * mat * l * k / 100000;
-							break;
-							default:
-							result = 3.1415 * Math.pow(d / 2, 2);
-							result = result * mat * l * k / 100000;
-						}
-						if(isNaN(result))
-						{alert('Некорректно введены данные для расчета');}
-						else
-						{$('#ves').val(result.toFixed(2) + " кг");}
-					};	
-					
-					function СalcInvoice(){
-						var total = parseFloat($('#ves').val()) * parseFloat($('#cenaKg').val());
-						$('#cenaTotal').val(total);
-					};
-				});
-			</script>
-		</body>
-	</html>									
+					<div class="col-12 d-none">Высота H (мм)<input type="number" min="0" max="9999" class="num button-n" id="visota" value="" placeholder=""></div>
+					<div class="col-12 d-none">Толщина S (мм)<input type="number" min="0" max="9999" class="num button-n" id="tolshina" value="" placeholder=""></div>
+					<div class="col-12 d-none">Ширина B (мм)<input type="number" min="0" max="9999" class="num button-n" id="shirina" value="" placeholder=""></div>
+					<div class="col-12 d-none">Количество (шт)<input type="number" min="0" max="9999" class="num button-n" id="kolichestvo" value="" placeholder=""></div>
+					<div class="col-12 d-none">Толщ. полок S2 (мм)<input type="number" min="0" max="9999" class="num button-n" id="tolshina2" value="" placeholder=""></div>
+				</div>
+				<div class="row col-12 pt-2 align-items-center bg-mg">
+					<div class="col-sm-6"><span id="rasschitat" class=" num button-n blue-button m-0">Рассчитать</span></div>
+					<div class="col-sm-6 pt-2">Вес:<input class="num button-n" id="ves" value="" readonly=""></div>
+					<div class="col-sm-6">Цена за кг:<input type="number" min="0" max="9999" class="num button-n" id="cenaKg" value="" placeholder="укажите цену за кг"></div>
+					<div class="col-sm-6">Общая стоимость:<input type="number" min="0" max="9999" class="num button-n bg-g" id="cenaTotal" value="" readonly></div>
+				</div>
+				<div class="col-12 text-right px-2 fs09"><a class="crazr" href="mailto:parketchikov@mail.ru">разработано jambagen@gmail.com</a></div>							
+			</div>
+		</div>
+		
+		<script async>
+			jQuery(function($){
+			var result = 0;		
+			var name;
+			$('.calc-btn').click(function(){ 
+			var theBtn = this;		
+			MngCalc(theBtn);
+			});
+			
+			$('#rasschitat').click(function(){ 			
+			DoCalculation();
+			});
+			
+			$('#cenaKg').keyup(function() {
+			if(result == 0 || Number.isNaN(parseFloat($('#cenaKg').val())))
+			{return;}
+			else {СalcInvoice();}
+		});
+		
+		function MngCalc(theBtn){
+			name = theBtn.getAttribute('data-name');
+			var imgSrc = theBtn.getAttribute('data-img');
+			var paramNumbers = theBtn.getAttribute('data-params');
+			var btnId = theBtn.getAttribute('data-id');
+			
+			if( btnId <= 10 )
+			{$('#material :nth-child(1)').attr("selected", "selected");}
+			else
+			{$('#material :nth-child(9)').attr("selected", "selected");}
+			$('#rollingName').text(name);
+			$('#rollingImg').attr('src', imgSrc);
+			var params = $('#params').children();
+			params.addClass('d-none');
+			ShowParams(params, paramNumbers);
+		};
+		
+		function ShowParams(params, paramNumbers){
+			$('#params input').val('');
+			$('#ves').val('');
+			$('#cenaKg').val('');
+			$('#cenaTotal').val('');
+			paramNumbers = paramNumbers.split('');
+			for(var i=0; i < paramNumbers.length; i++)
+			{
+				params.eq(paramNumbers[i]).removeClass('d-none');
+			}
+		}; 
+		
+		function DoCalculation(){ 
+			result = 0;
+			var k = parseFloat($('#k').val());
+			var d = parseFloat($('#diametr').val());
+			var l = parseFloat($('#dlina').val());
+			var t = parseFloat($('#tolshina').val());
+			var mat = parseFloat($('#material').val());
+			var sh = parseFloat($('#shirina').val());
+			var kol = parseFloat($('#kolichestvo').val());
+			var h = parseFloat($('#visota').val());
+			var t2 = parseFloat($('#tolshina2').val());
+			switch (name) { 
+				case 'Труба':
+				result = 3.1415 * Math.pow(d / 2, 2) - 3.1415 * (Math.pow(d / 2 - t, 2));
+				result = result * mat * l * k / 100000;
+				break;
+				case 'Шестигранник': 
+				result = 0.87 * Math.pow(d, 2) * mat / 100000 * l * k;
+				break;		
+				case 'Квадрат': 
+				result = Math.pow(sh, 2) * mat / 100000 * l * k;
+				break;
+				case 'Профильная труба': 
+				result = 2 * t * (sh + h) * mat / 100000 * l * k;
+				break;
+				case 'Швеллер': 
+				result = t*(2*h + sh - 2*t) * mat / 100000 * l * k;
+				break;
+				case 'Лист':
+				result = t * l * sh * mat / 100000 * k * kol;
+				break;
+				case 'Лента/полоса':
+				result = t * l * sh * mat / 100000 * k;
+				break;
+				case 'Балка':
+				result = ((h - 2*t2) * t + 2*(sh * t2)) * mat / 100000 * l * k;
+				break;
+				case 'Уголок':
+				result = ((h * t - Math.pow(t, 2)) + (sh*t)) * mat / 100000 * l * k;
+				break;
+				case 'Пластина':
+				result = t * l * sh * mat / 100000 * k * kol;
+				break;
+				case 'Стержень':
+				result = 3.1415 * Math.pow(d / 2, 2);
+				result = result * mat * l * k / 100000;
+				break;
+				default:
+				result = 3.1415 * Math.pow(d / 2, 2);
+				result = result * mat * l * k / 100000;
+			}
+			if(isNaN(result))
+			{alert('Некорректно введены данные для расчета');}
+			else
+			{$('#ves').val(result.toFixed(2) + " кг");}
+		};	
+		
+		function СalcInvoice(){
+			var total = parseFloat($('#ves').val()) * parseFloat($('#cenaKg').val());
+			$('#cenaTotal').val(total);
+		};
+		});
+	</script>
+</body>
+</html>									
