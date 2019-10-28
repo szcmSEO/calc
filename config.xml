@@ -16,5 +16,6 @@ version     = "1.0.0" >
 		Andrey Duhanin
 	</author>
 	<icon src="icon.png" />	
+	<preference name="phonegap-version" value="cli-9.0.0" />
 	<preference name="permissions" value="none" />
 </widget>
